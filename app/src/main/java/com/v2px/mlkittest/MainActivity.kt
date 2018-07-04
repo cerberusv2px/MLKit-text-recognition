@@ -210,7 +210,7 @@ class MainActivity : AppCompatActivity() {
             for (j in lines.indices) {
                 val elements = lines[j].elements
                 for (k in elements.indices) {
-                    val textGraphic = TextGraphic(mGraphicOverlay, elements[k])
+                    val textGraphic = TextGraphic(graphic_overlay, elements[k])
                     mGraphicOverlay?.add(textGraphic)
 
                 }
